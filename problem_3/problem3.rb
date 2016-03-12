@@ -10,7 +10,7 @@
 def get_lpf(x)
   lpf = 2;
   while (x > lpf) do
-    if (x % lpf==0)
+    if (x % lpf == 0)
       x = x / lpf 
       lpf = 2
     else
@@ -18,9 +18,8 @@ def get_lpf(x)
     end
   end
   lpf
-end
-   
- 
+end 
+  
 number = 600_851_475_143
 puts get_lpf(number)
 
