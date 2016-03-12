@@ -7,3 +7,23 @@
 # factors of a positive integer are the prime numbers that divide that integer 
 # exactly.
 
+def get_lpf(x)
+  lpf = 2;
+  while (x > lpf) do
+    if (x % lpf==0)
+      x = x / lpf 
+      lpf = 2
+    else
+      lpf += 1
+    end
+  end
+  lpf
+end
+   
+ 
+number = 600_851_475_143
+puts get_lpf(number)
+
+
+
+
