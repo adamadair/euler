@@ -1,3 +1,6 @@
+# This version is really slow. It should have been obvious when
+# it is creating a huge string of '1' characters. 
+
 # returns true if n is prime
 def is_prime?(n) 
  n < 2 ? false : ('1' * n) !~ /^1?$|^(11+?)\1+$/
