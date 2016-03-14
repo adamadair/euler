@@ -1,4 +1,7 @@
-
+# calculate product of len number of integers
+# in the integer array ary, starting at index and 
+# working backwards. I know this is a a strange way
+# of doing it, but it works for this solution.
 def calc_product(ary, index, len)
   prod = 1
   print "1"
@@ -8,7 +11,6 @@ def calc_product(ary, index, len)
   }
   puts " = #{prod}"
   prod
-  
 end
 
 # The number string straight from the problem text
