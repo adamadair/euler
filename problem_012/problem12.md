@@ -18,3 +18,8 @@ We can see that 28 is the first triangle number to have over five divisors.
 What is the value of the first triangle number to have over five hundred divisors?
 
 # Solution Notes
+This solution builds on the solution from problem 3, where I wrote a function for
+finding the prime factors of a number. The number of divisors can be calculate 
+from the exponents of the distinct prime numbers which are factors of x. So it was
+just a matter of modifying the function to store the exponents in an array and then
+use those values to calculate the number of divisors.
