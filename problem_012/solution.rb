@@ -1,4 +1,6 @@
 # returns number of divisors for number x
+# The number of divisors can be calculate from the exponents of the 
+# distinct prime numbers which are factors of x.
 def find_divisor_num(x)
   return 1 if x == 1
   n = x
