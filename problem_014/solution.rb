@@ -24,7 +24,5 @@ for i in 1..999_999
   end
   puts "#{i} : #{len}"
 end
-
 puts "**********************"
-puts curr_top_num
-puts "#{i} : #{len}"
+puts "#{curr_top_num} : #{curr_chain_len}"
