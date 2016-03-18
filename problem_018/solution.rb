@@ -7,34 +7,30 @@ File.open("triangle.txt", "r") do |f|
     triangle << d_array
   end
 end
-puts triangle
-count = Array.new
+last = []
 for i in 0...triangle.length
-  row = Array.new
+  row = Array.new(triangle[i].length)
   row_len = triangle[i].length
   for j in 0..row_len-1
-    row << triangle[i][j]
+    row[j] = triangle[i][j]
     if i > 0
       if j == 0 
-        row[j] += count[i-1][j]
+        row[j] += last[j]
       elsif j == row_len-1
-        row[j] += count[i-1][j-1]
+        row[j] += last[j-1]
       else
-        puts "i = #{i}  j = #{j} row_len = #{row_len}"
-        if count[i-1][j-1]>count[i-1][j]
-          row[j] += count[i-1][j-1]
+        if last[j-1]>last[j]
+          row[j] += last[j-1]
         else
-          row[j] += count[i-1][j]
+          row[j] += last[j]
         end
-      end    
+      end
     end
-    count << row
+    last = row
   end
 end
 
 max = 0
-for i in count[count.length-1]
-  man = i if i > max
-end
+last.each{|x| max = x if x > max }
 
 puts max

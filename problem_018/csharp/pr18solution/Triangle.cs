@@ -8,7 +8,7 @@ using System.IO;
 namespace pr18solution
 {
     /// <summary>
-    /// The 
+    /// The triangle structure.
     /// </summary>
     class Triangle
     {
