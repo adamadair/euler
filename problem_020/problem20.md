@@ -8,3 +8,6 @@ and the sum of the digits in the number 10! is 3 + 6 + 2 + 8 + 8 + 0 + 0 = 27.
 Find the sum of the digits in the number 100!
 
 # Solution Notes
+There is probably nifty mathematical way to do this, but I don't care. I just
+leveraged the power of Ruby to accomplish the result than figure out the 
+math. 
