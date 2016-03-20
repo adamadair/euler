@@ -8,5 +8,5 @@ For example, the proper divisors of 220 are 1, 2, 4, 5, 10, 11, 20, 22, 44, 55 a
 Evaluate the sum of all the amicable numbers under 10000.
 
 # Solution Notes
-Brute force calculation of divisors, sums placed into array, the rest is elementary. Should
-really redo this one, but I want to make the #25 milestone today.
+Brute force calculation of divisors, sums placed into array, the rest is elementary. I don't really understand the
+concept of amicable numbers, or why one would care. Perhaps this will become obvious later. Should really redo this one, but I want to make the #25 milestone today.
