@@ -21,4 +21,5 @@ The following algorithm generates the next permutation lexicographically after a
 3. Swap the value of `a[k]` with that of `a[l]`.
 4. Reverse the sequence from `a[k + 1]` up to and including the final element `a[n]`.
 
-The only difference to the algorithm is that I've added a counter so that it stops at the millionth.
+The only difference to the algorithm is that I've added a counter so that it stops at the millionth. The only
+thing left to do is convert to Ruby for completeness sake.
