@@ -9,5 +9,6 @@ You are given the following information, but you may prefer to do some research 
 How many Sundays fell on the first of the month during the twentieth century (1 Jan 1901 to 31 Dec 2000)?
 
 ## Solution Notes
+
 I still had Visual Studio open from problem 18, so I just wrote this in C#. I probably 
 won't come back and do it in Ruby.
