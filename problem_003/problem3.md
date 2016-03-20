@@ -13,4 +13,3 @@ not only describes a pretty code algorithm for finding all the prime
 factors of a number but then provided a code solution in C. It was 
 hard to ignore, so it is not a coincidence that my Ruby solution is 
 very similar that one. 
-
