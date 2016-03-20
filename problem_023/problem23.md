@@ -21,4 +21,4 @@ of two abundant numbers.
 
 # Solution Notes
 Used the fast sum_of_proper_divisors code from problem 21 to calculate
-all the abundant numbers under 28123.  The rest was elementary.
+all the abundant numbers under 28123.  The rest was trivial.
