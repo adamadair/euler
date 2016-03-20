@@ -105,4 +105,5 @@ Work out the first ten digits of the sum of the following one-hundred 50-digit n
 
 #Solution Notes
 I used Ruby's BigNum library and just added the damn numbers. I don't
-even feel bad about it. Hooray for Ruby!
+even feel bad about it. Hooray for Ruby! Perhaps it would be beneficial
+to understand how this actually works.
