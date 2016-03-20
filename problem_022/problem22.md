@@ -7,4 +7,4 @@ For example, when the list is sorted into alphabetical order, COLIN, which is wo
 What is the total of all the name scores in the file?
 
 # Solution Notes
-Mindless nonsense. This problem was stupid. My code was just as stupid.
+Mindless nonsense. I don't understand the purpose. This problem was stupid. My code was just as stupid.
