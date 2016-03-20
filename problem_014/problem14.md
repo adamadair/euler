@@ -1,5 +1,5 @@
-#Longest Collatz sequence
-##Problem 14
+# Longest Collatz sequence
+## Problem 14
 The following iterative sequence is defined for the set of positive integers:
 
 n → n/2 (n is even)
@@ -15,3 +15,5 @@ Which starting number, under one million, produces the longest chain?
 NOTE: Once the chain starts the terms are allowed to go above one million.
 
 # Solution Notes
+The code provides the correct answer, but I'm not certain that this is the most
+efficient algorithm
