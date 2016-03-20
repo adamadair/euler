@@ -38,3 +38,4 @@ was not producing the correct results. I rewrote the program in C# because
 I like the visual studio debugger better, in the end I did not require the 
 debugger because I figured out the problem before I even completed the C# 
 solution. I completed both the C# and Ruby solutions for this problem. 
+This code could acutally be useful later.
