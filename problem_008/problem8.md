@@ -14,6 +14,4 @@ calculating products for sets that do not contain the digit zero in them.
 Another way to do it would be to add 13 to the index when ever a zero is 
 discovered which might save some time too, but I never tried that, since the 
 end result would be that same and with only 1000 digits no time is really being
-saved.
-
-
+saved. For a larger data set it would be a good idea to revisit the algorithm.
