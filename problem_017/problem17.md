@@ -8,5 +8,6 @@ If all the numbers from 1 to 1000 (one thousand) inclusive were written out in w
 
 ## Problem Solution
 I did't even think about this one, and just brute forced it. Lazy, I know, but I didn't
-see the point in this one until I saw the work that others put into it. Then I felt bad
-and rethought the problem and that is in solution2.rb.
+see the point in this one until I saw the work that others put into it. 
+
+Then I felt bad and rethought the problem and that is in solution2.rb.
