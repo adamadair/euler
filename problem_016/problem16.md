@@ -5,5 +5,5 @@
 What is the sum of the digits of the number 21000?
 
 # Solution Notes
-Rubys excellent handling of Big Numbers makes this one very easy. Nothing much
-to say about the solution.
+Rubys excellent handling of Big Numbers makes this one very easy. 
+Nothing much to say about the solution.
