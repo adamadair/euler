@@ -12,4 +12,5 @@ checking for primality from that solution.
 ## C-sharp implementation
 The problem overview discussed the sieve of Eratosthenes as a method
 of efficiently completing the problem. I implemented the sieve using C# and the
-solution can be found in the folder **csharp/sieve**. 
+solution can be found in the folder **csharp/sieve**. The sieve should be
+implemented in Ruby later.
