@@ -7,6 +7,6 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 # Problem Solution
 My solution is problem1.rb is a simple brute force methd. The correct1.rb is by
 implementation of the suggested solution. This first problem was a good indication
-that in most cases the most obvious solution is rarelythe best solution and that
+that in most cases the most obvious solution is rarely the best solution and that
 taking some time to think and learn about the problem befor coding would be a 
 good idea.
