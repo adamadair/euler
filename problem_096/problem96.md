@@ -3,7 +3,10 @@
 Su Doku (Japanese meaning number place) is the name given to a popular puzzle concept. Its origin is unclear, but credit must be attributed to Leonhard Euler who invented a similar, and much more difficult, puzzle idea called Latin Squares. The objective of Su Doku puzzles, however, is to replace the blanks (or zeros) in a 9 by 9 grid in such that each row, column, and 3 by 3 box contains each of the digits 1 to 9.
 
 ## Solution Notes
-The Sudoku solver is in sudoku.rb
+I love Sudoku. I actually had some code to do this prior that I could use to provide the solution. 
+The Sudoku solver is in sudoku.rb. I didn't write the code in sudoku.rb, and I can't recall where
+it actually came from so I can't give proper credit where credit is due, but I want it to be clear
+that I am NOT claiming credit for the sudoko solving algorithm.
 
 Here are some tests:
 
