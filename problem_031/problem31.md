@@ -9,4 +9,7 @@ It is possible to make £2 in the following way:
 How many different ways can £2 be made using any number of coins?
 
 # Solution Notes
-2 different solutions, one in C# and one in Ruby. Both return the same answer.
+2 different solutions, one in C# and one in Ruby. Both return the same answer. The C# as it is written 
+is not reusable. The Ruby with only slight modification would be able to be reused for finding 
+solutions for different denominations of coins. The obvious next step would be to list the 
+actual coin combinations.
