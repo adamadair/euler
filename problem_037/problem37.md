@@ -11,3 +11,5 @@ right and right to left.
 NOTE: 2, 3, 5, and 7 are not considered to be truncatable primes.
 
 ## Solution Notes
+Again nothing special. Takes advantage of the quick conversions from integer
+to string and back in Ruby. The answer is returned fairly quick. 
