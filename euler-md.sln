@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EulerLib-Mono", "lib\dotnet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem39-Mono", "problem_039\csharp\Problem39-Mono.csproj", "{9B398C7F-5CD8-4222-91F5-9A758C9B2CA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem40-Mono", "problem_040\csharp\Problem40-Mono.csproj", "{DCD4F773-902A-42F7-B583-7DC981E9D9FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BEC61358-E69A-43CE-A86F-FF9EF88002AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEC61358-E69A-43CE-A86F-FF9EF88002AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEC61358-E69A-43CE-A86F-FF9EF88002AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCD4F773-902A-42F7-B583-7DC981E9D9FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCD4F773-902A-42F7-B583-7DC981E9D9FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCD4F773-902A-42F7-B583-7DC981E9D9FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD4F773-902A-42F7-B583-7DC981E9D9FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
