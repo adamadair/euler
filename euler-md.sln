@@ -5,12 +5,18 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EulerLib-Mono", "lib\dotnet\EulerLib\EulerLib-Mono.csproj", "{BEC61358-E69A-43CE-A86F-FF9EF88002AC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem39-Mono", "problem_039\csharp\Problem39-Mono.csproj", "{9B398C7F-5CD8-4222-91F5-9A758C9B2CA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B398C7F-5CD8-4222-91F5-9A758C9B2CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B398C7F-5CD8-4222-91F5-9A758C9B2CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B398C7F-5CD8-4222-91F5-9A758C9B2CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B398C7F-5CD8-4222-91F5-9A758C9B2CA9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BEC61358-E69A-43CE-A86F-FF9EF88002AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BEC61358-E69A-43CE-A86F-FF9EF88002AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEC61358-E69A-43CE-A86F-FF9EF88002AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
