@@ -14,6 +14,10 @@ class Fixnum
   def prime?
     is_prime?(self)
   end #prime?
+  
+  def pandigital?(n)
+    self.to_s.each_char.sort.join == (1..n).to_a.join  
+  end
   private
   # returns true if n is prime
   def is_prime?(n) 
