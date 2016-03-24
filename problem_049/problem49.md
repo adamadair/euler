@@ -10,5 +10,5 @@ What 12-digit number do you form by concatenating the three terms in this sequen
 
 C#, long search through the available list of primes to find triplets where the differences
 between the first and second matched the difference of the second and third. The values of the 
-triplet is then checked to see if each is made from identical digits. The runtime is slower
+triplet are then checked to see if each is made from identical digits. The runtime is slower
 than I expected, but it worked. 
