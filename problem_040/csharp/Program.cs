@@ -23,6 +23,5 @@ namespace Problem40
             solution *= Int32.Parse (str [1000000 - 1].ToString());
             Console.WriteLine (solution.ToString ());
         }
-
     }
 }
