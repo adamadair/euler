@@ -9,12 +9,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem39-Mono", "problem_0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem40-Mono", "problem_040\csharp\Problem40-Mono.csproj", "{DCD4F773-902A-42F7-B583-7DC981E9D9FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "problem54-MD", "problem_054\problem54-VS\problem54-MD.csproj", "{2B0321D0-7AF8-427C-8A14-2B06EDFC58E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B0321D0-7AF8-427C-8A14-2B06EDFC58E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B0321D0-7AF8-427C-8A14-2B06EDFC58E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B0321D0-7AF8-427C-8A14-2B06EDFC58E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B0321D0-7AF8-427C-8A14-2B06EDFC58E4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9B398C7F-5CD8-4222-91F5-9A758C9B2CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9B398C7F-5CD8-4222-91F5-9A758C9B2CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B398C7F-5CD8-4222-91F5-9A758C9B2CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
