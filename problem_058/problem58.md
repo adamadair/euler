@@ -20,7 +20,7 @@ along both diagonals are prime; that is, a ratio of 8/13 ≈ 62%.
 If one complete new layer is wrapped around the spiral above, a square spiral 
 with side length 9 will be formed. If this process is continued, what is the 
 side length of the square spiral for which the ratio of primes along both 
-diagonals first falls below 10%?
+diagonals first falls below or equal to 10%?
 
 ## Solution Notes
 The hard part of this problem was figured out in Problem 28, so armed with
