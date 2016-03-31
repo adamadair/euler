@@ -1,0 +1,29 @@
+# Spiral primes
+## Problem 58
+Starting with 1 and spiralling anticlockwise in the following way, a square 
+spiral with side length 7 is formed.
+
+`37 36 35 34 33 32 31`<br/>
+`38 17 16 15 14 13 30`<br/>
+`39 18  5  4  3 12 29`<br/>
+`40 19  6  1  2 11 28`<br/>
+`41 20  7  8  9 10 27`<br/>
+`42 21 22 23 24 25 26`<br/>
+`43 44 45 46 47 48 49`<br/>
+
+It is interesting to note that the odd squares lie along the bottom right 
+diagonal, but what is more interesting is that 8 out of the 13 numbers lying 
+along both diagonals are prime; that is, a ratio of 8/13 ≈ 62%.
+
+If one complete new layer is wrapped around the spiral above, a square spiral 
+with side length 9 will be formed. If this process is continued, what is the 
+side length of the square spiral for which the ratio of primes along both 
+diagonals first falls below 10%?
+
+## Solution Notes
+The hard part of this problem was figured out in Problem 28, so armed with
+that knowledge we just have to loop and count values until the limit is reached.
+The acutal size of the numbers involved become quite large, so checking for
+prime requires some calculation time. The whole thing takes about 2 seconds
+on an under powered linux server so I think this was a good test of the 
+is_prime libray I wrote and have been using for checking for primality.
