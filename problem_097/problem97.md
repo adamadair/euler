@@ -18,4 +18,11 @@ I used the ruby command line interpereter to solve this:
 I'm just using Ruby like a powerful calculator. So, perhaps it is true that I do 
 not understand the mathematics behind how Ruby is able calculate very large numbers, 
 but I do not how to use the tools at my disposal to find the answers to these
-questions.  
+questions. It does take some time to run, and knowing that it is converting a number 
+with over 2 million digits into a string to just get the last 10 digits from it is using 
+a large amount of memory.
+
+I wrote a C program to calculate the same answer and it uses for less memory and 
+processing power. Using a `long` variable set to 1 we just shift left 7830457 times
+and since we only care about the last 10 digits and to take care not to overflow the
+variable we use modular division to trim the value. Program execution is much faster.
