@@ -1,6 +1,5 @@
 #include<stdio.h>
-int
-main(){
+int main(){
   int i = 0;
   long result = 1;
   for (i = 0; i < 7830457; i++)

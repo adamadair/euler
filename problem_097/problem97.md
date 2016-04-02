@@ -13,16 +13,32 @@ Find the last ten digits of this prime number.
 # Solution Notes
 I used the ruby command line interpereter to solve this:
 
-`puts ((28433*(2**7830457))+1).to_s[-10..-1]`
+`puts (28433*(2**7830457)+1) % 10000000000`
 
 I'm just using Ruby like a powerful calculator. So, perhaps it is true that I do 
 not understand the mathematics behind how Ruby is able calculate very large numbers, 
-but I do not how to use the tools at my disposal to find the answers to these
-questions. It does take some time to run, and knowing that it is converting a number 
-with over 2 million digits into a string to just get the last 10 digits from it is using 
-a large amount of memory.
+but I do know how to use the tools at my disposal to find the answers to these
+questions. I don't know what that says about me as a programmer, but I am very aware
+what it says about my math skills. I am not a mathematician. 
 
-I wrote a C program to calculate the same answer and it uses for less memory and 
-processing power. Using a `long` variable set to 1 we just shift left 7830457 times
+I wrote a C program to calculate the same answer and it should be obvious what it is doing.
+Using a `long` variable set to 1 we just shift left 7830457 times
 and since we only care about the last 10 digits and to take care not to overflow the
-variable we use modular division to trim the value. Program execution is much faster.
+variable we use modular division to trim the value. Program execution is fast, but I think
+that the Ruby solution is just as fast. 
+
+So I used the `time` feature on Mac to time the execution of both programs.
+
+**Ruby:**
+<pre>
+  real	0m0.068s
+  user	0m0.046s
+  sys	0m0.018s 
+</pre>
+
+**C:**
+<pre>
+  real	0m0.157s
+  user	0m0.145s
+  sys	0m0.004s
+</pre>
