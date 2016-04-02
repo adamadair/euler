@@ -1,0 +1,1 @@
+puts (1..100).to_a.map{|x|(1..100).to_a.map{|y|((x**y).to_s.length==y)?1:0}.reduce(:+)}.reduce(:+)
