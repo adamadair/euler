@@ -25,7 +25,6 @@ namespace Problem49_VS
 
             foreach (var a in Primes)
             {
-                Console.WriteLine(a);
                 foreach(var b in Primes.Where(p => p > a))
                 {
                     foreach(var c in Primes.Where(p2=> p2 > b))
