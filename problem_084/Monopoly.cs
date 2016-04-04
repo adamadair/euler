@@ -5,7 +5,6 @@ namespace Monopoly
 {
     public class Monopoly
     {
-        private static MTRandom rng = new MTRandom();
         CardDeck chanceDeck;
         CardDeck communityChestDeck;
         Square[] board;
