@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BCD4F865-812B-42F7-B583-8DC981E9D9FD}</ProjectGuid>
+    <ProjectGuid>{689B84E2-37DF-4DF3-8878-1C58C9E3D9D1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Problem40Mono</RootNamespace>
-    <AssemblyName>Problem40-Mono</AssemblyName>
+    <RootNamespace>Monopoly</RootNamespace>
+    <AssemblyName>Monopoly</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -33,18 +33,8 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Triangle.cs" />
+    <Compile Include="Monopoly.cs" />
+    <Compile Include="MTRandom.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ItemGroup>
-    <None Include="p067_triangle.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="test.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="triangle.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
 </Project>
