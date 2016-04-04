@@ -44,3 +44,5 @@ Statistically it can be shown that the three most popular squares, in order, are
 If, instead of using two 6-sided dice, two 4-sided dice are used, find the six-digit modal string.
 
 # Solution Notes 
+I wrote the Monopoly simulator in C#. I simulated playing out 100000000 moves using a
+2 four-sided dice to get the solution. 
