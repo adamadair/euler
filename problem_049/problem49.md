@@ -7,7 +7,6 @@ There are no arithmetic sequences made up of three 1-, 2-, or 3-digit primes, ex
 What 12-digit number do you form by concatenating the three terms in this sequence?
 
 # Solution Notes
-
 C#, long search through the available list of primes to find triplets where the differences
 between the first and second matched the difference of the second and third. The values of the 
 triplet are then checked to see if each is made from identical digits. The runtime is slower
