@@ -9,4 +9,4 @@ For which value of p ≤ 1000, is the number of solutions maximised?
 ## Solution Notes
 Written in C#, and it is sloooowwwww...but it returns the right answer. I know that the search range values
 probably do not make much sense, like there can't be a right triangle with a = b = c = 1, but I really
-don't know of a better way of reducing the number of searches.
+don't know of a better way of reducing the number of searches. May come back and do it in Ruby.
