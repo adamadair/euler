@@ -10,6 +10,7 @@ If dn represents the nth digit of the fractional part, find the value of the fol
 
 d1 × d10 × d100 × d1000 × d10000 × d100000 × d1000000
 ## Solution Notes
+
 Written in C#, this is my approach:
 
 1. Make a big decimal string by concatenating the first 500000 integers together. 
