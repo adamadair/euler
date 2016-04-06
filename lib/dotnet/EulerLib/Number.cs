@@ -23,6 +23,17 @@ namespace EulerLib
         }
 
         /// <summary>
+        /// Determines if n is a perfect square.
+        /// </summary>
+        /// <param name="n">the number to check</param>
+        /// <returns>True if n is square, otherwise false</returns>
+        public static bool IsSquare(int n)
+        {
+            double result = Math.Sqrt(n);
+            return result % 1 == 0;
+        }
+        
+        /// <summary>
         /// Returns the smallest prime that divides n
         /// </summary>
         /// <param name="n">n is the number</param>
@@ -80,7 +91,12 @@ namespace EulerLib
     {
         public static bool IsPrime(this int value)
         {
-            return Number.IsPrime(value);
+            return Number.IsPrime(value);            
+        }
+
+        public static bool IsSquare(this int value)
+        {
+            return Number.IsSquare(value);
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace problem_098
+namespace EulerLib
 {
     /// <summary>
     /// The PrimeSieve class is an implementation of the sieve of Eratosthenes. The underlying
@@ -15,7 +15,7 @@ namespace problem_098
         private bool[] sieve;
         private List<int> primes;
         private int limit;
-        
+
         public PrimeSieve(int size)
         {
             limit = size;
@@ -40,7 +40,7 @@ namespace problem_098
                     }
                 }
             }
-        
+
             for (int i = 2; i <= sieveBound; ++i)
             {
                 if (!sieve[i])
@@ -52,6 +52,5 @@ namespace problem_098
         {
             return primes;
         }
-        
     }
 }

@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="BigNumber.cs" />
     <Compile Include="Number.cs" />
+    <Compile Include="PrimeSieve.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
