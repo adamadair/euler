@@ -37,5 +37,22 @@ namespace EulerUnitTests
             Assert.IsTrue(Number.IsPalindrome(585, 2));
             Assert.IsFalse(Number.IsPalindrome(678, 10));
         }
+
+        [TestMethod]
+        public void IsSquare_Test()
+        {
+            Assert.IsTrue(Number.IsSquare(36));
+            Assert.IsTrue(Number.IsSquare(1296));
+            Assert.IsTrue(Number.IsSquare(9216));
+
+            Assert.IsFalse(Number.IsSquare(9217));
+            Assert.IsFalse(Number.IsSquare(1295));
+            Assert.IsFalse(Number.IsSquare(35));
+
+            Assert.IsTrue(49.IsSquare());
+            Assert.IsTrue(64.IsSquare());
+            Assert.IsFalse(80.IsSquare());
+            Assert.IsFalse(2.IsSquare());
+        }
     }
 }

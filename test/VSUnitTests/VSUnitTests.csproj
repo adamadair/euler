@@ -45,11 +45,14 @@
     </When>
     <Otherwise>
       <ItemGroup>
-        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
+          <Private>False</Private>
+        </Reference>
       </ItemGroup>
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="AnagramTests.cs" />
     <Compile Include="BigNumberTest.cs" />
     <Compile Include="NumberTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -58,6 +61,10 @@
     <ProjectReference Include="..\..\lib\dotnet\EulerLib\EulerLib.csproj">
       <Project>{e5e8fd77-4c68-427f-aca1-8eb6dd33ab62}</Project>
       <Name>EulerLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\problem_098\problem_098.csproj">
+      <Project>{8fce0ba9-ebb7-422c-b204-6f2e2ae52d74}</Project>
+      <Name>problem_098</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
