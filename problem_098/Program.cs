@@ -52,21 +52,22 @@ namespace problem_098
             after = DateTime.Now;
             span = new TimeSpan(after.Ticks - before.Ticks);
             Console.WriteLine("Found " + Anagrams.Count + " anagrams in " + span.TotalMilliseconds + " ms.");
+            int maxSquare = 0;
             foreach (var a in Anagrams)
             {
                 Console.Write(a.ToString() + "  ");
-                int[] primeAnagrams = a.FindPrimeAnagrams();
-                if (primeAnagrams.Length > 0)
+                int[] squareAnagrams = a.FindSquareAnagrams();
+                if (squareAnagrams.Length > 0)
                 {
-                    foreach(var pr in primeAnagrams)
+                    foreach(var pr in squareAnagrams)
                     {
+                        if (pr > maxSquare) maxSquare = pr;
                         Console.Write(" " + pr.ToString());
-                    }
-                    
+                    }                    
                 }
                 Console.WriteLine();
-            }            
-            
+            }
+            Console.WriteLine(maxSquare);
             Console.ReadLine();
         }
 
@@ -83,22 +84,5 @@ namespace problem_098
             }
             return list.ToArray();
         }
-
-        static int[] GeneratePrimes(int length)
-        {
-            List<int> primes = new List<int>();
-            int max = Convert.ToInt32( Math.Pow(10, length));
-            int n = 3;
-            while(n < max)
-            {
-                if (n.IsPrime())
-                {
-                    primes.Add(n);
-                }
-                n += 2;
-            }
-            return primes.ToArray();
-        }
-
     }
 }
