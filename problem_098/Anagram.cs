@@ -84,18 +84,19 @@ namespace problem_098
                 string pattern = p;
                 for(int i = 0; i < chars.Count; ++i)
                 {
-                    pattern = pattern.Replace("{" + i + "}", chars[i].ToString());
+                    pattern = pattern.Replace("{" + i + "}", chars[i].c.ToString());
                 }
                 int num = int.Parse(pattern);
                 if (num.IsPrime())
                 {
                     l.Add(num);
                 }
+                else
+                    return;
             }
-            if (l.Count > 1)
-            {
-                primes.AddRange(l);
-            }
+           
+            primes.AddRange(l);
+            
         }
     }
 

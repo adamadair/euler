@@ -54,7 +54,17 @@ namespace problem_098
             Console.WriteLine("Found " + Anagrams.Count + " anagrams in " + span.TotalMilliseconds + " ms.");
             foreach (var a in Anagrams)
             {
-                Console.WriteLine(a.ToString());
+                Console.Write(a.ToString() + "  ");
+                int[] primeAnagrams = a.FindPrimeAnagrams();
+                if (primeAnagrams.Length > 0)
+                {
+                    foreach(var pr in primeAnagrams)
+                    {
+                        Console.Write(" " + pr.ToString());
+                    }
+                    
+                }
+                Console.WriteLine();
             }            
             
             Console.ReadLine();
