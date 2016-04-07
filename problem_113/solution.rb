@@ -8,7 +8,7 @@ def calc(n,r)
 end
 
 def nN(n)
-  calc(n+10,10)+c(n+9,9)-9*n-(n+1)-1
+  calc(n+10,10)+calc(n+9,9)-9*n-(n+1)-1
 end
 
 puts nN(100)
